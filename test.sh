@@ -1,12 +1,10 @@
-#!/bin/sh
-
-set -e
+#!/bin/bash
 
 echo "Hello world"
 
-echo "${{secrets.MULTI_LINE_3_VARS}}" >  file.txt
+echo "${{ secrets.ONE_LINE_3_VARS }}" >  file.txt
 
-wc - file.txt
+wc -l file.txt
 
 
 
