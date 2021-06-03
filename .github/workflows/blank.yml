@@ -14,4 +14,4 @@ jobs:
         env:
           SUPER_SECRET: ${{ secrets.MULTI_LINE_3_VARS }}
         run: |
-          .test.sh
+          ./test.sh
