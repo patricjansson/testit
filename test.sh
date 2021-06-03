@@ -3,5 +3,9 @@
 set -e
 
 echo "Hello world"
-echo "${{secrets.MULTI_LINE_3_VARS}}"
 
+echo "${SUPER_SECRET}" >  file.txt
+
+cat file.txt
+
+wc - file.txt
