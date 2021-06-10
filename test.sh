@@ -16,7 +16,7 @@ echo "Testing how Github Actions handles secrets."
 
 VARS=${SUPER_SECRET}
 echo "Chars:"
-wc -c "$VARS"
+wc -c "-> $VARS <-"
 
 echo "--words file ------- "
 echo "${VARS}" >  file.txt
