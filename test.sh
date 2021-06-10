@@ -16,6 +16,7 @@
 
 echo "Hello world"
 
+VARS=${SUPER_SECRET}
 echo "${SUPER_SECRET}" >  file.txt
 
 cat file.txt
@@ -25,3 +26,4 @@ wc -l file.txt
 echo "A: $A"
 echo "B: $B"
 echo "C: $C"
+echo "$VARS"
