@@ -12,7 +12,7 @@
 # ONE_LINE_3_VARS
 # A=1 B=2 C=3
 
-echo "Testing how Github Actions handles secrets"
+echo "Testing how Github Actions handles secrets."
 
 VARS=${SUPER_SECRET}
 echo "Chars:"
